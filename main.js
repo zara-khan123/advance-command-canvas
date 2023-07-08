@@ -39,6 +39,11 @@ function setup() {
  canvas.position(0, 150) ;
 }
 
+function preload()
+{
+  loadImage("apple");
+}
+
 function draw() {
   if(draw_apple == "set")
   {
@@ -64,8 +69,5 @@ function speak(){
     speak_data = "";
 }
 
-function preload()
-{
-  loadImage("apple");
-}
+
 }
